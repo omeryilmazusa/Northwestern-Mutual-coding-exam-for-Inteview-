@@ -1,0 +1,355 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 16,
+        "name": "the user goes to page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 646000,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "the user navigate to page url",
+            "match": {
+              "location": "StepDefinitions.SauceDemo_stepDef.SauceDemo_steps.the_user_navigate_to_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 643000,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "the user validate title \"Swag Labs\" and url \"https://www.saucedemo.com/inventory.html\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Swag Labs\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"https://www.saucedemo.com/inventory.html\"",
+                  "offset": 44
+                }
+              ],
+              "location": "StepDefinitions.SauceDemo_stepDef.SauceDemo_steps.the_user_validate_title_and_url(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-24T20:21:24.093Z",
+        "before": [
+          {
+            "result": {
+              "duration": 466000,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Sorting and shopping cart validation",
+        "description": "",
+        "id": "testing-saucedemo.com;sorting-and-shopping-cart-validation",
+        "after": [
+          {
+            "result": {
+              "duration": 12000,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1552000,
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "the user sort items name A to Z \"Name (A to Z)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Name (A to Z)\"",
+                  "offset": 32
+                }
+              ],
+              "location": "StepDefinitions.SauceDemo_stepDef.SauceDemo_steps.the_user_sort_items_name_A_to_Z(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 526000,
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "the user add 3 items to the shopping cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 13
+                }
+              ],
+              "location": "StepDefinitions.SauceDemo_stepDef.SauceDemo_steps.the_user_add_items_to_the_shopping_cart(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 465000,
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "the user click shopping cart",
+            "match": {
+              "location": "StepDefinitions.SauceDemo_stepDef.SauceDemo_steps.the_user_click_shopping_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 306000,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "Validate the items that you added",
+            "match": {
+              "location": "StepDefinitions.SauceDemo_stepDef.SauceDemo_steps.validate_the_items_that_you_added()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Scenario1"
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "the user goes to page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 358000,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "the user navigate to page url",
+            "match": {
+              "location": "StepDefinitions.SauceDemo_stepDef.SauceDemo_steps.the_user_navigate_to_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 309000,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "the user validate title \"Swag Labs\" and url \"https://www.saucedemo.com/inventory.html\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Swag Labs\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"https://www.saucedemo.com/inventory.html\"",
+                  "offset": 44
+                }
+              ],
+              "location": "StepDefinitions.SauceDemo_stepDef.SauceDemo_steps.the_user_validate_title_and_url(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-24T20:21:24.154Z",
+        "before": [
+          {
+            "result": {
+              "duration": 16000,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Removing and Re add items",
+        "description": "",
+        "id": "testing-saucedemo.com;removing-and-re-add-items",
+        "after": [
+          {
+            "result": {
+              "duration": 8000,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 556000,
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "the user add 3 items to the shopping cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 13
+                }
+              ],
+              "location": "StepDefinitions.SauceDemo_stepDef.SauceDemo_steps.the_user_add_items_to_the_shopping_cart(java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 261000,
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "the user click shopping cart",
+            "match": {
+              "location": "StepDefinitions.SauceDemo_stepDef.SauceDemo_steps.the_user_click_shopping_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 249000,
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "the user remove one item and continue shopping",
+            "match": {
+              "location": "StepDefinitions.SauceDemo_stepDef.SauceDemo_steps.the_user_remove_one_item_and_continue_shopping()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 246000,
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "add another item",
+            "match": {
+              "location": "StepDefinitions.SauceDemo_stepDef.SauceDemo_steps.add_another_item()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 268000,
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "the user click shopping cart",
+            "match": {
+              "location": "StepDefinitions.SauceDemo_stepDef.SauceDemo_steps.the_user_click_shopping_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 249000,
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "the user click checkout and continue with correct information",
+            "match": {
+              "location": "StepDefinitions.SauceDemo_stepDef.SauceDemo_steps.the_user_click_checkout_and_continue_with_correct_information()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 266000,
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "the user Assert you are purchasing the correct items",
+            "match": {
+              "location": "StepDefinitions.SauceDemo_stepDef.SauceDemo_steps.the_user_Assert_you_are_purchasing_the_correct_items()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 236000,
+              "status": "skipped"
+            },
+            "line": 37,
+            "name": "the user Assert the total price",
+            "match": {
+              "location": "StepDefinitions.SauceDemo_stepDef.SauceDemo_steps.the_user_Assert_the_total_price()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 262000,
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "the user validate final message \"THANK YOU FOR YOUR ORDER\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"THANK YOU FOR YOUR ORDER\"",
+                  "offset": 32
+                }
+              ],
+              "location": "StepDefinitions.SauceDemo_stepDef.SauceDemo_steps.the_user_validate_final_message(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Scenario2"
+          }
+        ]
+      }
+    ],
+    "name": "Testing SauceDemo.com",
+    "description": "  o\tWorkflow:\n  \tLog into the site\n  \tSort the items\n  \tAdd two or more items to the shopping cart\n  \tVisit the shopping cart\n  •\tAssert that the items that you added are in the cart\n  \tRemove an item and then continue shopping\n  \tAdd another item\n  \tCheckout\n  •\tAssert you are purchasing the correct items\n  •\tAssert the total price\n  •\tFinish checkout",
+    "id": "testing-saucedemo.com",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/SauceDemo/SauceDemo.feature",
+    "tags": []
+  }
+]
